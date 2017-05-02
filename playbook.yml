@@ -1,0 +1,7 @@
+---
+- name: Install Cassandra
+  hosts: all
+  sudo: yes
+  roles:
+    - jdk
+    - cassandra
